@@ -77,7 +77,7 @@
   });
 
   const continueButton = document.querySelector('#continue-reading');
-  if (continueButton && state.lastPage && /^(prologue|chapter-(?:[1-9]|10))$/.test(state.lastPage)) {
+  if (continueButton && state.lastPage && /^(prologue|chapter-\d+)$/.test(state.lastPage)) {
     continueButton.href = `${state.lastPage}.html`;
     continueButton.innerHTML = 'Продолжить читать <span aria-hidden="true">→</span>';
     const chapter = state.lastPage === 'prologue' ? 'Пролог' : `Глава ${state.lastPage.split('-')[1]}`;

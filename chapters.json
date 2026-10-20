@@ -2,22 +2,22 @@
   {
     "id": "prologue",
     "label": "Пролог",
-    "paragraphs": 41
+    "paragraphs": 42
   },
   {
     "id": "chapter-1",
     "label": "Глава 1  Свет над столом",
-    "paragraphs": 113
+    "paragraphs": 118
   },
   {
     "id": "chapter-2",
     "label": "Глава 2  Два ключа",
-    "paragraphs": 97
+    "paragraphs": 104
   },
   {
     "id": "chapter-3",
     "label": "Глава 3  Голубая чашка",
-    "paragraphs": 71
+    "paragraphs": 76
   },
   {
     "id": "chapter-4",
@@ -27,7 +27,7 @@
   {
     "id": "chapter-5",
     "label": "Глава 5  Выдать под подпись",
-    "paragraphs": 103
+    "paragraphs": 112
   },
   {
     "id": "chapter-6",
@@ -37,7 +37,7 @@
   {
     "id": "chapter-7",
     "label": "Глава 7  Место для стула",
-    "paragraphs": 108
+    "paragraphs": 117
   },
   {
     "id": "chapter-8",
@@ -52,6 +52,16 @@
   {
     "id": "chapter-10",
     "label": "Глава 10  Третья кружка",
-    "paragraphs": 121
+    "paragraphs": 130
+  },
+  {
+    "id": "chapter-11",
+    "label": "Глава 11  Лишняя смена",
+    "paragraphs": 74
+  },
+  {
+    "id": "chapter-12",
+    "label": "Глава 12  Сухие носки",
+    "paragraphs": 63
   }
 ]
