@@ -1,0 +1,57 @@
+[
+  {
+    "id": "prologue",
+    "label": "Пролог",
+    "paragraphs": 41
+  },
+  {
+    "id": "chapter-1",
+    "label": "Глава 1  Свет над столом",
+    "paragraphs": 113
+  },
+  {
+    "id": "chapter-2",
+    "label": "Глава 2  Два ключа",
+    "paragraphs": 97
+  },
+  {
+    "id": "chapter-3",
+    "label": "Глава 3  Голубая чашка",
+    "paragraphs": 71
+  },
+  {
+    "id": "chapter-4",
+    "label": "Глава 4  Чужая коробка",
+    "paragraphs": 88
+  },
+  {
+    "id": "chapter-5",
+    "label": "Глава 5  Выдать под подпись",
+    "paragraphs": 103
+  },
+  {
+    "id": "chapter-6",
+    "label": "Глава 6  День зарплаты",
+    "paragraphs": 106
+  },
+  {
+    "id": "chapter-7",
+    "label": "Глава 7  Место для стула",
+    "paragraphs": 108
+  },
+  {
+    "id": "chapter-8",
+    "label": "Глава 8  Возврат без чека",
+    "paragraphs": 92
+  },
+  {
+    "id": "chapter-9",
+    "label": "Глава 9  На чужом столе",
+    "paragraphs": 93
+  },
+  {
+    "id": "chapter-10",
+    "label": "Глава 10  Третья кружка",
+    "paragraphs": 121
+  }
+]
