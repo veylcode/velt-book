@@ -2,12 +2,12 @@
   {
     "id": "prologue",
     "label": "Пролог",
-    "paragraphs": 42
+    "paragraphs": 47
   },
   {
     "id": "chapter-1",
     "label": "Глава 1  Свет над столом",
-    "paragraphs": 118
+    "paragraphs": 121
   },
   {
     "id": "chapter-2",
@@ -17,51 +17,91 @@
   {
     "id": "chapter-3",
     "label": "Глава 3  Голубая чашка",
-    "paragraphs": 76
+    "paragraphs": 63
   },
   {
     "id": "chapter-4",
-    "label": "Глава 4  Чужая коробка",
-    "paragraphs": 88
+    "label": "Глава 4  На настоящем складе",
+    "paragraphs": 59
   },
   {
     "id": "chapter-5",
-    "label": "Глава 5  Выдать под подпись",
-    "paragraphs": 112
+    "label": "Глава 5  За наш счёт",
+    "paragraphs": 66
   },
   {
     "id": "chapter-6",
     "label": "Глава 6  День зарплаты",
-    "paragraphs": 106
+    "paragraphs": 71
   },
   {
     "id": "chapter-7",
     "label": "Глава 7  Место для стула",
-    "paragraphs": 117
+    "paragraphs": 115
   },
   {
     "id": "chapter-8",
     "label": "Глава 8  Возврат без чека",
-    "paragraphs": 92
+    "paragraphs": 85
   },
   {
     "id": "chapter-9",
-    "label": "Глава 9  На чужом столе",
-    "paragraphs": 93
+    "label": "Глава 9  Место у прохода",
+    "paragraphs": 58
   },
   {
     "id": "chapter-10",
     "label": "Глава 10  Третья кружка",
-    "paragraphs": 130
+    "paragraphs": 97
   },
   {
     "id": "chapter-11",
     "label": "Глава 11  Лишняя смена",
-    "paragraphs": 74
+    "paragraphs": 70
   },
   {
     "id": "chapter-12",
     "label": "Глава 12  Сухие носки",
     "paragraphs": 63
+  },
+  {
+    "id": "chapter-13",
+    "label": "Глава 13  Человек из банка",
+    "paragraphs": 94
+  },
+  {
+    "id": "chapter-14",
+    "label": "Глава 14  То что можно забрать",
+    "paragraphs": 82
+  },
+  {
+    "id": "chapter-15",
+    "label": "Глава 15  Снег в вентиляции",
+    "paragraphs": 83
+  },
+  {
+    "id": "chapter-16",
+    "label": "Глава 16  Пока не хватает",
+    "paragraphs": 55
+  },
+  {
+    "id": "chapter-17",
+    "label": "Глава 17  Первая очередь",
+    "paragraphs": 53
+  },
+  {
+    "id": "chapter-18",
+    "label": "Глава 18  Номер в телефоне",
+    "paragraphs": 46
+  },
+  {
+    "id": "chapter-19",
+    "label": "Глава 19  Тёплая вода",
+    "paragraphs": 60
+  },
+  {
+    "id": "chapter-20",
+    "label": "Глава 20  Свои имена",
+    "paragraphs": 72
   }
 ]

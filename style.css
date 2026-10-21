@@ -13,3 +13,12 @@ dialog{color:var(--ink);background:var(--paper);border:1px solid var(--line);bor
 .theme-swatch.gray{background:#dfe3e6;color:#242b31}.text-choice{margin:0 0 23px;padding:0;border:0}.text-choice legend{font-size:14px;margin-bottom:13px}.choice-buttons{display:flex;gap:8px;flex-wrap:wrap}.choice{background:var(--card);border:1px solid var(--line);border-radius:6px;min-height:42px;padding:10px 12px;font-size:12px}.choice[aria-pressed=true]{outline:2px solid var(--accent);outline-offset:1px}.book-font{font-family:Georgia,serif}.classic-font{font-family:'Times New Roman',serif;font-size:14px}.prose{font-family:var(--reading-family,Georgia,serif);line-height:var(--reading-leading,1.8)}
 @media(prefers-reduced-motion:no-preference){button,a{transition:background-color .15s,color .15s,filter .15s}}@media print{.topbar,.chapter-navigation,.site-footer,dialog{display:none}.reader{max-width:none}.prose{font-size:12pt;line-height:1.5}}
 .about-book{max-width:780px;margin:65px auto;font:18px/1.85 Georgia,serif}.about-book h2,.parts-overview h2{font:normal 30px/1.4 Georgia,serif}.about-book p{margin:0 0 18px}.parts-overview{border-top:1px solid var(--line);padding-top:30px}.parts-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.parts-grid>a,.parts-grid>div{padding:23px;background:var(--card);border-radius:6px;display:flex;flex-direction:column;gap:13px;text-decoration:none}.parts-grid small{font-size:11px;color:var(--muted)}.parts-grid strong{font:normal 23px/1.35 Georgia,serif}.parts-grid span{font-size:13px;color:var(--muted);line-height:1.7}@media(max-width:600px){.parts-grid{grid-template-columns:1fr}.about-book{font-size:17px;margin:42px auto}.about-book h2,.parts-overview h2{font-size:27px}}
+
+/* Inline paths keep navigation independent of phone emoji fonts. */
+.ui-icon{display:inline-block;width:20px;height:20px;flex:none;vertical-align:-.2em;overflow:visible}
+.chapter-arrow{display:flex;align-items:center;justify-content:center}
+.chapter-arrow .ui-icon{width:18px;height:18px}
+.revision-notice{font:14px/1.65 Arial,Helvetica,sans-serif;color:var(--muted);border-block:1px solid var(--line);padding:16px 0;margin:0 0 32px}
+.revision-notice a{text-underline-offset:3px}
+.revision-notice[hidden]{display:none}
+@media(max-width:480px){.chapter-list a{grid-template-columns:26px minmax(0,1fr) 20px;gap:9px}.status-pill{white-space:normal;text-align:center}}

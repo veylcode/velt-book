@@ -2,6 +2,8 @@
   'use strict';
   const root = document.documentElement;
   const storageKey = 'velt-reader-v1';
+  const edition = '2026-10-21-v2';
+  let editionChanged = false;
   let state = {fontSize: 21, theme: 'paper', font: 'book', spacing: 'normal', positions: {}};
   try {
     const saved = JSON.parse(localStorage.getItem(storageKey));
@@ -14,6 +16,19 @@
   const store = () => {
     try { localStorage.setItem(storageKey, JSON.stringify(state)); } catch (_) {}
   };
+  if (state.edition !== edition) {
+    editionChanged = Boolean(state.lastPage);
+    if (editionChanged) {
+      state.previousEdition = {lastPage: state.lastPage, positions: state.positions};
+      state.positions = {};
+      delete state.lastPage;
+    }
+    state.edition = edition;
+    store();
+  }
+  const revisionNotice = document.querySelector('#revision-notice');
+  if (revisionNotice && editionChanged) revisionNotice.hidden = false;
+
   const applySettings = () => {
     state.fontSize = Math.max(16, Math.min(28, Number(state.fontSize) || 21));
     if (!['paper', 'light', 'gray', 'dark'].includes(state.theme)) state.theme = 'paper';
@@ -79,7 +94,7 @@
   const continueButton = document.querySelector('#continue-reading');
   if (continueButton && state.lastPage && /^(prologue|chapter-\d+)$/.test(state.lastPage)) {
     continueButton.href = `${state.lastPage}.html`;
-    continueButton.innerHTML = 'Продолжить читать <span aria-hidden="true">→</span>';
+    continueButton.firstChild.textContent = 'Продолжить читать ';
     const chapter = state.lastPage === 'prologue' ? 'Пролог' : `Глава ${state.lastPage.split('-')[1]}`;
     document.querySelector('#resume-note').textContent = `${chapter} · вернуться к сохранённому месту`;
   }
