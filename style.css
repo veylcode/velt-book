@@ -22,3 +22,22 @@ dialog{color:var(--ink);background:var(--paper);border:1px solid var(--line);bor
 .revision-notice a{text-underline-offset:3px}
 .revision-notice[hidden]{display:none}
 @media(max-width:480px){.chapter-list a{grid-template-columns:26px minmax(0,1fr) 20px;gap:9px}.status-pill{white-space:normal;text-align:center}}
+
+/* Publication states retain their wording as well as their own color. */
+.publication-status{--status-ink:#176847;--status-rgb:24 139 83;display:inline-flex;align-items:center;align-self:flex-start;gap:8px;width:fit-content;max-width:100%;box-sizing:border-box;padding:8px 11px;border:1px solid rgb(var(--status-rgb)/.28);border-radius:9px;background:rgb(var(--status-rgb)/.08);color:var(--status-ink);font:12px/1.45 Arial,Helvetica,sans-serif;box-shadow:0 0 18px rgb(var(--status-rgb)/.13),inset 0 0 12px rgb(var(--status-rgb)/.04);text-shadow:0 0 12px rgb(var(--status-rgb)/.16)}
+.publication-status i{display:block;flex:none;width:6px;height:6px;border-radius:50%;background:currentColor;box-shadow:0 0 8px rgb(var(--status-rgb)/.6)}
+.status-partial{--status-ink:#875006;--status-rgb:184 113 15}
+.status-planned{--status-ink:#6945a3;--status-rgb:126 85 193}
+html[data-theme=dark] .status-published{--status-ink:#8ce9b6;--status-rgb:83 218 145}
+html[data-theme=dark] .status-partial{--status-ink:#ffd38d;--status-rgb:245 181 73}
+html[data-theme=dark] .status-planned{--status-ink:#cfb9ff;--status-rgb:175 132 255}
+.part-contents{margin:40px 0 56px;scroll-margin-top:95px}
+.contents-title{font:normal 30px/1.4 Georgia,serif;margin:0 0 35px}
+.part-card .publication-status{margin:0 0 2px}
+#contents-dialog .part-contents{margin:25px 0 38px}
+#contents-dialog .section-heading{display:block;margin-bottom:18px}
+#contents-dialog .section-heading h2{font-size:24px;margin:0 0 12px}
+#contents-dialog .section-heading .eyebrow{margin-bottom:5px}
+@media(max-width:480px){.part-contents>.section-heading{align-items:flex-start;flex-direction:column;gap:14px}.publication-status{font-size:11px;padding:8px 10px}.part-card strong{overflow-wrap:break-word}}
+.status-legend{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:24px 0 8px}.status-legend>p{flex-basis:100%;margin:0 0 2px;font:11px Arial,Helvetica,sans-serif;color:var(--muted)}.status-legend .publication-status{font-size:11px;padding:6px 9px}
+#parts,#status-legend{scroll-margin-top:100px}

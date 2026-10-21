@@ -2,106 +2,247 @@
   {
     "id": "prologue",
     "label": "Пролог",
+    "part": 1,
     "paragraphs": 47
   },
   {
     "id": "chapter-1",
     "label": "Глава 1  Свет над столом",
+    "part": 1,
     "paragraphs": 121
   },
   {
     "id": "chapter-2",
     "label": "Глава 2  Два ключа",
+    "part": 1,
     "paragraphs": 104
   },
   {
     "id": "chapter-3",
     "label": "Глава 3  Голубая чашка",
+    "part": 1,
     "paragraphs": 63
   },
   {
     "id": "chapter-4",
     "label": "Глава 4  На настоящем складе",
+    "part": 1,
     "paragraphs": 59
   },
   {
     "id": "chapter-5",
     "label": "Глава 5  За наш счёт",
+    "part": 1,
     "paragraphs": 66
   },
   {
     "id": "chapter-6",
     "label": "Глава 6  День зарплаты",
+    "part": 1,
     "paragraphs": 71
   },
   {
     "id": "chapter-7",
     "label": "Глава 7  Место для стула",
+    "part": 1,
     "paragraphs": 115
   },
   {
     "id": "chapter-8",
     "label": "Глава 8  Возврат без чека",
+    "part": 1,
     "paragraphs": 85
   },
   {
     "id": "chapter-9",
     "label": "Глава 9  Место у прохода",
+    "part": 1,
     "paragraphs": 58
   },
   {
     "id": "chapter-10",
     "label": "Глава 10  Третья кружка",
+    "part": 1,
     "paragraphs": 97
   },
   {
     "id": "chapter-11",
     "label": "Глава 11  Лишняя смена",
+    "part": 1,
     "paragraphs": 70
   },
   {
     "id": "chapter-12",
     "label": "Глава 12  Сухие носки",
+    "part": 1,
     "paragraphs": 63
   },
   {
     "id": "chapter-13",
     "label": "Глава 13  Человек из банка",
+    "part": 1,
     "paragraphs": 94
   },
   {
     "id": "chapter-14",
     "label": "Глава 14  То что можно забрать",
+    "part": 1,
     "paragraphs": 82
   },
   {
     "id": "chapter-15",
     "label": "Глава 15  Снег в вентиляции",
+    "part": 1,
     "paragraphs": 83
   },
   {
     "id": "chapter-16",
     "label": "Глава 16  Пока не хватает",
+    "part": 1,
     "paragraphs": 55
   },
   {
     "id": "chapter-17",
     "label": "Глава 17  Первая очередь",
+    "part": 1,
     "paragraphs": 53
   },
   {
     "id": "chapter-18",
     "label": "Глава 18  Номер в телефоне",
+    "part": 1,
     "paragraphs": 46
   },
   {
     "id": "chapter-19",
     "label": "Глава 19  Тёплая вода",
+    "part": 1,
     "paragraphs": 60
   },
   {
     "id": "chapter-20",
     "label": "Глава 20  Свои имена",
+    "part": 1,
     "paragraphs": 72
+  },
+  {
+    "id": "chapter-21",
+    "label": "Глава 21  Очередь до угла",
+    "part": 2,
+    "paragraphs": 53
+  },
+  {
+    "id": "chapter-22",
+    "label": "Глава 22  Комната с окном",
+    "part": 2,
+    "paragraphs": 43
+  },
+  {
+    "id": "chapter-23",
+    "label": "Глава 23  Свой выходной",
+    "part": 2,
+    "paragraphs": 45
+  },
+  {
+    "id": "chapter-24",
+    "label": "Глава 24  Витрина",
+    "part": 2,
+    "paragraphs": 37
+  },
+  {
+    "id": "chapter-25",
+    "label": "Глава 25  Общая работа",
+    "part": 2,
+    "paragraphs": 76
+  },
+  {
+    "id": "chapter-26",
+    "label": "Глава 26  Новая смена",
+    "part": 2,
+    "paragraphs": 75
+  },
+  {
+    "id": "chapter-27",
+    "label": "Глава 27  Вторая копия",
+    "part": 2,
+    "paragraphs": 39
+  },
+  {
+    "id": "chapter-28",
+    "label": "Глава 28  Место в первом ряду",
+    "part": 2,
+    "paragraphs": 40
+  },
+  {
+    "id": "chapter-29",
+    "label": "Глава 29  Чужая заслуга",
+    "part": 2,
+    "paragraphs": 36
+  },
+  {
+    "id": "chapter-30",
+    "label": "Глава 30  Короткая поездка",
+    "part": 2,
+    "paragraphs": 29
+  },
+  {
+    "id": "chapter-31",
+    "label": "Глава 31  Оставить включённым",
+    "part": 2,
+    "paragraphs": 38
+  },
+  {
+    "id": "chapter-32",
+    "label": "Глава 32  Незакрытый счёт",
+    "part": 2,
+    "paragraphs": 31
+  },
+  {
+    "id": "chapter-33",
+    "label": "Глава 33  Выключенный микрофон",
+    "part": 2,
+    "paragraphs": 51
+  },
+  {
+    "id": "chapter-34",
+    "label": "Глава 34  Общий снимок",
+    "part": 2,
+    "paragraphs": 29
+  },
+  {
+    "id": "chapter-35",
+    "label": "Глава 35  Там где было имя",
+    "part": 2,
+    "paragraphs": 28
+  },
+  {
+    "id": "chapter-36",
+    "label": "Глава 36  Неправильный отпуск",
+    "part": 2,
+    "paragraphs": 43
+  },
+  {
+    "id": "chapter-37",
+    "label": "Глава 37  Доступ временно закрыт",
+    "part": 2,
+    "paragraphs": 34
+  },
+  {
+    "id": "chapter-38",
+    "label": "Глава 38  Два автора",
+    "part": 2,
+    "paragraphs": 34
+  },
+  {
+    "id": "chapter-39",
+    "label": "Глава 39  Чужие дети",
+    "part": 2,
+    "paragraphs": 75
+  },
+  {
+    "id": "chapter-40",
+    "label": "Глава 40  Дверь изнутри",
+    "part": 2,
+    "paragraphs": 49
   }
 ]
